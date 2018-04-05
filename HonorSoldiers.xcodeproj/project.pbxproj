@@ -7,25 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		76ECEB7E2075F0E5001700F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76ECEB7D2075F0E5001700F0 /* Main.storyboard */; };
 		81063E3B2074CC5F0056353A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81063E3A2074CC5F0056353A /* AppDelegate.m */; };
 		81063E3E2074CC5F0056353A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81063E3D2074CC5F0056353A /* ViewController.m */; };
-		81063E412074CC5F0056353A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81063E3F2074CC5F0056353A /* Main.storyboard */; };
 		81063E432074CC5F0056353A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81063E422074CC5F0056353A /* Assets.xcassets */; };
 		81063E462074CC5F0056353A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81063E442074CC5F0056353A /* LaunchScreen.storyboard */; };
 		81063E492074CC5F0056353A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81063E482074CC5F0056353A /* main.m */; };
+		81063E632074CE050056353A /* roboto-medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81063E512074CE040056353A /* roboto-medium.ttf */; };
+		81063E642074CE050056353A /* BrandonGrotesque-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 81063E522074CE040056353A /* BrandonGrotesque-Light.otf */; };
+		81063E652074CE050056353A /* roboto-light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81063E532074CE040056353A /* roboto-light.ttf */; };
+		81063E662074CE050056353A /* noto-sans-bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81063E542074CE040056353A /* noto-sans-bold.ttf */; };
+		81063E672074CE050056353A /* Anodyne.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81063E552074CE040056353A /* Anodyne.ttf */; };
+		81063E682074CE050056353A /* roboto-regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81063E562074CE040056353A /* roboto-regular.ttf */; };
+		81063E692074CE050056353A /* BrandonGrotesque-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81063E572074CE040056353A /* BrandonGrotesque-Light.ttf */; };
+		81063E6A2074CE050056353A /* glyphicons-halflings-regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81063E582074CE040056353A /* glyphicons-halflings-regular.ttf */; };
+		81063E6B2074CE050056353A /* BrandonGrotesque-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 81063E592074CE040056353A /* BrandonGrotesque-RegularItalic.otf */; };
+		81063E6C2074CE050056353A /* BrandonGrotesque-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81063E5A2074CE040056353A /* BrandonGrotesque-Bold.ttf */; };
+		81063E6D2074CE050056353A /* BrandonGrotesque-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81063E5B2074CE040056353A /* BrandonGrotesque-Medium.ttf */; };
+		81063E6E2074CE050056353A /* BrandonGrotesque-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81063E5C2074CE040056353A /* BrandonGrotesque-Regular.ttf */; };
+		81063E6F2074CE050056353A /* noto-sans-regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81063E5D2074CE040056353A /* noto-sans-regular.ttf */; };
+		81063E702074CE050056353A /* BrandonGrotesque-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 81063E5E2074CE040056353A /* BrandonGrotesque-Regular.otf */; };
+		81063E712074CE050056353A /* roboto-bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81063E5F2074CE040056353A /* roboto-bold.ttf */; };
+		81063E722074CE050056353A /* BrandonGrotesque-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 81063E602074CE040056353A /* BrandonGrotesque-Bold.otf */; };
+		81063E732074CE050056353A /* BrandonGrotesque-RegularItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81063E612074CE040056353A /* BrandonGrotesque-RegularItalic.ttf */; };
+		81063E742074CE050056353A /* BrandonGrotesque-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 81063E622074CE040056353A /* BrandonGrotesque-Medium.otf */; };
+		81063E762074CE490056353A /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 81063E752074CE490056353A /* data.json */; };
+		81063E792074E2080056353A /* SoldierData.m in Sources */ = {isa = PBXBuildFile; fileRef = 81063E782074E2080056353A /* SoldierData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		76ECEB7D2075F0E5001700F0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		81063E362074CC5F0056353A /* HonorSoldiers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HonorSoldiers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81063E392074CC5F0056353A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		81063E3A2074CC5F0056353A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		81063E3C2074CC5F0056353A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		81063E3D2074CC5F0056353A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		81063E402074CC5F0056353A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		81063E422074CC5F0056353A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81063E452074CC5F0056353A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81063E472074CC5F0056353A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81063E482074CC5F0056353A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		81063E512074CE040056353A /* roboto-medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "roboto-medium.ttf"; sourceTree = "<group>"; };
+		81063E522074CE040056353A /* BrandonGrotesque-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BrandonGrotesque-Light.otf"; sourceTree = "<group>"; };
+		81063E532074CE040056353A /* roboto-light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "roboto-light.ttf"; sourceTree = "<group>"; };
+		81063E542074CE040056353A /* noto-sans-bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "noto-sans-bold.ttf"; sourceTree = "<group>"; };
+		81063E552074CE040056353A /* Anodyne.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Anodyne.ttf; sourceTree = "<group>"; };
+		81063E562074CE040056353A /* roboto-regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "roboto-regular.ttf"; sourceTree = "<group>"; };
+		81063E572074CE040056353A /* BrandonGrotesque-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BrandonGrotesque-Light.ttf"; sourceTree = "<group>"; };
+		81063E582074CE040056353A /* glyphicons-halflings-regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "glyphicons-halflings-regular.ttf"; sourceTree = "<group>"; };
+		81063E592074CE040056353A /* BrandonGrotesque-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BrandonGrotesque-RegularItalic.otf"; sourceTree = "<group>"; };
+		81063E5A2074CE040056353A /* BrandonGrotesque-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BrandonGrotesque-Bold.ttf"; sourceTree = "<group>"; };
+		81063E5B2074CE040056353A /* BrandonGrotesque-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BrandonGrotesque-Medium.ttf"; sourceTree = "<group>"; };
+		81063E5C2074CE040056353A /* BrandonGrotesque-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BrandonGrotesque-Regular.ttf"; sourceTree = "<group>"; };
+		81063E5D2074CE040056353A /* noto-sans-regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "noto-sans-regular.ttf"; sourceTree = "<group>"; };
+		81063E5E2074CE040056353A /* BrandonGrotesque-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BrandonGrotesque-Regular.otf"; sourceTree = "<group>"; };
+		81063E5F2074CE040056353A /* roboto-bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "roboto-bold.ttf"; sourceTree = "<group>"; };
+		81063E602074CE040056353A /* BrandonGrotesque-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BrandonGrotesque-Bold.otf"; sourceTree = "<group>"; };
+		81063E612074CE040056353A /* BrandonGrotesque-RegularItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BrandonGrotesque-RegularItalic.ttf"; sourceTree = "<group>"; };
+		81063E622074CE040056353A /* BrandonGrotesque-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BrandonGrotesque-Medium.otf"; sourceTree = "<group>"; };
+		81063E752074CE490056353A /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		81063E772074E2080056353A /* SoldierData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoldierData.h; sourceTree = "<group>"; };
+		81063E782074E2080056353A /* SoldierData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoldierData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,17 +99,54 @@
 		81063E382074CC5F0056353A /* HonorSoldiers */ = {
 			isa = PBXGroup;
 			children = (
+				81063E4F2074CD440056353A /* Resources */,
 				81063E392074CC5F0056353A /* AppDelegate.h */,
 				81063E3A2074CC5F0056353A /* AppDelegate.m */,
 				81063E3C2074CC5F0056353A /* ViewController.h */,
 				81063E3D2074CC5F0056353A /* ViewController.m */,
-				81063E3F2074CC5F0056353A /* Main.storyboard */,
-				81063E422074CC5F0056353A /* Assets.xcassets */,
+				76ECEB7D2075F0E5001700F0 /* Main.storyboard */,
 				81063E442074CC5F0056353A /* LaunchScreen.storyboard */,
 				81063E472074CC5F0056353A /* Info.plist */,
 				81063E482074CC5F0056353A /* main.m */,
+				81063E772074E2080056353A /* SoldierData.h */,
+				81063E782074E2080056353A /* SoldierData.m */,
 			);
 			path = HonorSoldiers;
+			sourceTree = "<group>";
+		};
+		81063E4F2074CD440056353A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				81063E752074CE490056353A /* data.json */,
+				81063E502074CE040056353A /* Fonts */,
+				81063E422074CC5F0056353A /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		81063E502074CE040056353A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				81063E512074CE040056353A /* roboto-medium.ttf */,
+				81063E522074CE040056353A /* BrandonGrotesque-Light.otf */,
+				81063E532074CE040056353A /* roboto-light.ttf */,
+				81063E542074CE040056353A /* noto-sans-bold.ttf */,
+				81063E552074CE040056353A /* Anodyne.ttf */,
+				81063E562074CE040056353A /* roboto-regular.ttf */,
+				81063E572074CE040056353A /* BrandonGrotesque-Light.ttf */,
+				81063E582074CE040056353A /* glyphicons-halflings-regular.ttf */,
+				81063E592074CE040056353A /* BrandonGrotesque-RegularItalic.otf */,
+				81063E5A2074CE040056353A /* BrandonGrotesque-Bold.ttf */,
+				81063E5B2074CE040056353A /* BrandonGrotesque-Medium.ttf */,
+				81063E5C2074CE040056353A /* BrandonGrotesque-Regular.ttf */,
+				81063E5D2074CE040056353A /* noto-sans-regular.ttf */,
+				81063E5E2074CE040056353A /* BrandonGrotesque-Regular.otf */,
+				81063E5F2074CE040056353A /* roboto-bold.ttf */,
+				81063E602074CE040056353A /* BrandonGrotesque-Bold.otf */,
+				81063E612074CE040056353A /* BrandonGrotesque-RegularItalic.ttf */,
+				81063E622074CE040056353A /* BrandonGrotesque-Medium.otf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,9 +207,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81063E682074CE050056353A /* roboto-regular.ttf in Resources */,
+				81063E632074CE050056353A /* roboto-medium.ttf in Resources */,
+				81063E6F2074CE050056353A /* noto-sans-regular.ttf in Resources */,
+				81063E692074CE050056353A /* BrandonGrotesque-Light.ttf in Resources */,
+				81063E6A2074CE050056353A /* glyphicons-halflings-regular.ttf in Resources */,
 				81063E462074CC5F0056353A /* LaunchScreen.storyboard in Resources */,
+				81063E652074CE050056353A /* roboto-light.ttf in Resources */,
+				81063E6E2074CE050056353A /* BrandonGrotesque-Regular.ttf in Resources */,
+				81063E662074CE050056353A /* noto-sans-bold.ttf in Resources */,
+				81063E642074CE050056353A /* BrandonGrotesque-Light.otf in Resources */,
+				81063E6C2074CE050056353A /* BrandonGrotesque-Bold.ttf in Resources */,
+				81063E762074CE490056353A /* data.json in Resources */,
+				76ECEB7E2075F0E5001700F0 /* Main.storyboard in Resources */,
+				81063E672074CE050056353A /* Anodyne.ttf in Resources */,
+				81063E712074CE050056353A /* roboto-bold.ttf in Resources */,
+				81063E6D2074CE050056353A /* BrandonGrotesque-Medium.ttf in Resources */,
+				81063E6B2074CE050056353A /* BrandonGrotesque-RegularItalic.otf in Resources */,
 				81063E432074CC5F0056353A /* Assets.xcassets in Resources */,
-				81063E412074CC5F0056353A /* Main.storyboard in Resources */,
+				81063E722074CE050056353A /* BrandonGrotesque-Bold.otf in Resources */,
+				81063E732074CE050056353A /* BrandonGrotesque-RegularItalic.ttf in Resources */,
+				81063E742074CE050056353A /* BrandonGrotesque-Medium.otf in Resources */,
+				81063E702074CE050056353A /* BrandonGrotesque-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,6 +239,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81063E792074E2080056353A /* SoldierData.m in Sources */,
 				81063E3E2074CC5F0056353A /* ViewController.m in Sources */,
 				81063E492074CC5F0056353A /* main.m in Sources */,
 				81063E3B2074CC5F0056353A /* AppDelegate.m in Sources */,
@@ -151,14 +249,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		81063E3F2074CC5F0056353A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				81063E402074CC5F0056353A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		81063E442074CC5F0056353A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -284,7 +374,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.falconet.HonorSoldiers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -298,7 +388,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.falconet.HonorSoldiers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
