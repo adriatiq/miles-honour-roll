@@ -52,7 +52,7 @@
 
 -(void)setTimer{
     NSDate *d = [NSDate dateWithTimeIntervalSinceNow: 6.0];
-    timer = [[NSTimer alloc] initWithFireDate:d interval:1 target:self selector:@selector(timerFired) userInfo:nil repeats:false];
+    timer = [[NSTimer alloc] initWithFireDate:d interval:1 target:self selector:@selector(setDataInView) userInfo:nil repeats:false];
     [[NSRunLoop mainRunLoop] addTimer:timer forMode:NSDefaultRunLoopMode];
 }
 
